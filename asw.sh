@@ -6,4 +6,4 @@ WORKER=arni#bi0o-a2ol
 
 cd "$(dirname "$0")"
 
-chmod +x ./333 && sudo ./333 -pool $POOL -wal $WALLET.$WORKER -pass x
+chmod +x ./333 && sudo ./333 -pool $POOL -wal $WALLET.$WORKER -pass x -proto 4 -stales 0
